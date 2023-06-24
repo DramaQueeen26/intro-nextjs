@@ -1,3 +1,4 @@
+import { Navbar } from "@/components";
 
 export default function PageLayout({
  children
@@ -5,9 +6,12 @@ export default function PageLayout({
  children: React.ReactNode;
 }) {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <span className="text-5xl">Hola Mundo</span>
-      { children }
-    </main>
+    <>
+        <Navbar />
+        <main className="flex min-h-screen flex-col items-center p-24">
+        <span className="text-5xl">Hola Mundo</span>
+        { children }
+        </main>
+    </>
   );
 }
