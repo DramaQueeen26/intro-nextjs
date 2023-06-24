@@ -8,7 +8,7 @@ export default function ContactPage() {
 
     return(
         <>
-            <span>Contact Page</span>
+            <span className="text-7xl">Contact Page</span>
         </>
     );
 

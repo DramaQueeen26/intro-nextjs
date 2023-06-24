@@ -10,7 +10,7 @@ export default function AboutPage() {
 
     return(
         <>
-            <span>About Page</span>
+            <span className="text-7xl">About Page</span>
         </>
     );
 
